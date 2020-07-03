@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family:'Poppins',san-serif;
+  color: #222;
+}
+
+.navbar{
+  padding: 0rem;
+}
+.nav-contact-icon{
+  padding: 0 1rem 0 3rem;
+  color: black;
+}
+.nav-contact-num{
+  text-decoration: none;
+  color: black;
+
+}
+.carousel-caption h1{
+  font-size: 250%;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.navbar-brand{
+  padding: 0rem;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height:100%;
+}
+.carousel-caption{
+  position: absolute;
+  top: 56%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  padding: 1rem;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500%;
+  text-shadow: 1px 1px 10px #000; 
+  padding: 1rem 0 2rem 0;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+  margin-top: 2rem;
+
+}
+.btn-primary-light:hover {
+  background: transparent;
+    border: 1px solid var(--white);
+    color: black; 
+}
+
+.btn-primary-light {
+
+  background-color: #563d7c;
+  color: white;
+  margin: auto;
+}
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fa-code{
+  color: #e54d26;
+}
+
+.fa-bold{
+  color: #563d7c;
+}
+.fa-css3{
+  color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3{
+  font-size: 4em;
+  margin: 1rem;
+}
+.fun{
+  width: 100%
+  margin-bottom:2rem;
+}
+.gif{
+  max-width: 100%;
+}
+
+.socialnav a {
+  font-size: 2.5em;
+  padding:2rem;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.instagram{
+  color: #517fa4;
+}
+
+.fa-youtube{
+  color: #bb0000;
+}
+
+.social: hover,
+.facebook : hover,
+.twitter: hover,
+.instagram: hover,
+.youtube: hover{
+  color: #d5d5d5;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem; 
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 50%;
+  margin-top: .8rem;
+  margin-bottom: 1rem; 
+}
+
+footer a{
+  color: #d5d5d5;
+
+}
+
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  /*Padding for the contact form*/
+  .contact-form{
+    padding: 2rem;
+  }
+  }
+
+
+@media (max-width: 768px) {
+  .nav-contact-icon{
+    margin-right: -80%;
+    color: #40bad5;
+  }
+  .nav-contact-num{
+    font-size: 0;
+  }
+  .carousel-caption{
+  top:50%;
+}
+.carousel-caption h1{
+  font-size: 320%;
+}
+.carousel-caption h3{
+  font-size: 140%;
+  font-weight: 400%;
+  padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+.carousel-indicators{
+  display:none;
+}
+.display-4{
+  font-size: 200%;
+}
+
+
+.social a{
+    font-size: 2.4em;
+    padding: 1.2rem;
+  }
+}
+
+/*Screen size for mobile*/
+
+@media (max-width: 480px) {
+  .nav-contact-icon{
+    margin-right: -60%;
+    color: #40bad5;
+  }
+
+  .nav-contact-num{
+    font-size: 0;
+  }
+  .carousel-caption{
+  top:40%;
+}
+.carousel-caption h1{
+  font-size: 190%;
+  padding: .7rem;
+  padding-bottom: 0;
+  
+  
+}
+.carousel-caption h3{
+  font-size: 100%;
+  padding-top: 0;
+  
+}
+.carousel-caption .btn{
+  font-size: 90%;
+  padding: 2px 4px;
+}
+.carousel-indicators{
+  display:none;
+}
+.display-4{
+  font-size: 160%;
+}
+.social a{
+    font-size: 2em;
+    padding: .7rem;
+  }
+.navbar-toggler{
+  padding-right:0.6;
+}
+.navbar-brand{
+	width: 100px;
+	height: 65px;
+
+}
+.lead{
+	font-size: 100%;
+    
+}
+.jbtn .mbtn{
+	font-size: 110%;
+  padding: 2px 4px;
+}
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*#fixed ,h1{
+	padding-top:10rem;
+	text-align: center;
+	color: white;
+
+
+	}*/
+/*--- Bootstrap Padding Fix --*/
+
+
+/*--- Contact --*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container  {
+  
+  border-radius: 5px;
+  /*background-color: #f2f2f2; */
+  padding: 15px;
+}
+
+.contact-icon{
+  color: #99ddcc;
+  margin-bottom: 1rem;
+}
+/*.contact-icon:hover{
+  color: #8ef6e4;
+}*/
+/*About/meet our team  */
+
+.cta-100 {
+  margin-top: 100px;
+  padding-left: 8%;
+  padding-top: 7%;
+}
+.col-md-4{
+    padding-bottom:20px;
+}
+
+.white {
+  color: #fff !important;
+}
+.mt{float: left;margin-top: -20px;padding-top: 20px;}
+.bg-blue-ui {
+  background-color: #708198 !important;
+}
+figure img{width:300px;}
+
+#blogCarousel {
+  padding-bottom: 100px;
+}
+
+.blog .carousel-indicators {
+  left: 0;
+  top: -50px;
+  height: 50%;
+}
+
+/*Hover image  */
+.box21{text-align:center;position:relative}
+.box21:after,.box21:before{content:"";width:2px;height:2px;border-radius:50%;background:rgba(0,0,0,.35);position:absolute;top:50%;left:50%;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0)}
+.box21:hover:after,.box21:hover:before{-webkit-transform:scale(200);-moz-transform:scale(200);-ms-transform:scale(200);-o-transform:scale(200);transform:scale(200)}
+.box21:before{-o-transition:all .5s linear .3s;-moz-transition:all .5s linear .3s;-ms-transition:all .5s linear .3s;-webkit-transition:all .5s linear .3s;transition:all .5s linear .3s}
+.box21:hover:before{-moz-transition-delay:0s;-webkit-transition-delay:0s;-o-transition-delay:0s;-ms-transition-delay:0s;transition-delay:0s}
+.box21:after{-o-transition:all .5s linear .6s;-moz-transition:all .5s linear .6s;-ms-transition:all .5s linear .6s;-webkit-transition:all .5s linear .6s;transition:all .5s linear .6s}
+.box21:hover:after{-moz-transition-delay:.2s;-webkit-transition-delay:.2s;-o-transition-delay:.2s;-ms-transition-delay:.2s;transition-delay:.2s}
+.box21 img{width:100%;height:auto}
+.box21 .box-content{width:100%;height:100%;position:absolute;top:0;left:0;background:0 0;color:#fff;padding-top:25px;-webkit-transform:scale(0);-moz-transform:scale(0);-ms-transform:scale(0);-o-transform:scale(0);transform:scale(0);-ms-transition:all .3s linear 0s;-o-transition:all .3s linear 0s;-webkit-transition:all .3s linear 0s;-moz-transition:all .3s linear 0s;transition:all .3s linear 0s;z-index:1}
+.box21:hover .box-content{-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);-moz-transition-delay:.4s;-webkit-transition-delay:.4s;-o-transition-delay:.4s;-ms-transition-delay:.4s;transition-delay:.4s}
+.box21 .title{font-size:21px;font-weight:700;text-transform:uppercase;border-bottom:1px solid #fff;padding-bottom:20px;margin-top:20px}
+.box21 .description{font-size:14px;font-style:italic;padding:0 10px;margin:15px 0}
+.box21 .read-more{display:block;width:120px;background:#178993;border-radius:5px;font-size:14px;color:#fff;text-transform:capitalize;padding:10px 0;margin:0 auto}
+@media only screen and (max-width:990px){.box21{margin-bottom:30px}
+}
+@media only screen and (max-width:479px){.box21 .box-content{padding-top:0}
+}
+@media only screen and (max-width:359px){.box21 .title{padding-bottom:10px}
+}
+
+
+/*About main image */
+
+
+header .item {
+  height: 40vh;
+  position: relative;
+}
+header .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+header .item .cover {
+  padding: 75px 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+header .item .cover .header-content {
+  position: relative;
+  padding: 56px;
+  overflow: hidden;
+}
+header .item .cover .header-content .line {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 5px solid #fff;
+  -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
+
+
+header .item .cover .header-content {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+
+}
+header .item .cover .header-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+header .item .cover .header-content h4{
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+}
+
+.contact-header{
+  padding-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+
+/* Service Section color contanier */
+.container-color{
+  padding: 1rem;
+  border-radius: 0;
+  background-color: #eeeeee;
+
+}
+.title-demo {
+    font-family: 'Domine', serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+}
+
+/* Removable Description at Top of Demo */
+.desc-demo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+/* Initial Setup */
+.bordered-gradient {
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Image Setup */
+.bordered-gradient img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    opacity: 0.4;            
+    transform: scale(1.25);
+    transition: all 0.5s ease;
+}
+
+/* Initial Setup of Interior Content */
+.bordered-gradient .border-content {
+    background-image: linear-gradient(to right, #E9C46A 0%, #2A9D8F 100%), linear-gradient(to right, #E9C46A 0%, #2A9D8F 100%);
+    background-size: 100% 2px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    border-left: 2px solid #E9C46A;
+    border-right: 2px solid #2A9D8F;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+/*To show the text on the top of image change opacity*/
+/* Styling of Anchor Tags within Content */
+.bordered-gradient .border-content .border-desc a {
+    font-family: 'Domine', serif;
+    font-weight: normal;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF !important;
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+/* Hover Effects for the Image */
+.bordered-gradient:hover img {
+    transform: scale(1);
+    opacity: 0.2;
+}
+
+/* Hover Effects for the Anchor Tag */
+.bordered-gradient:hover .border-content .border-desc a {
+    opacity: 0;
+}
+
+
+
+/* Contact Form demo */
+.get-in-touch {
+  max-width: 900px;
+  margin: 50px auto;
+  position: relative;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+
+/* Gallary */
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+  .gallery {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  }
+}
+
+/* Contact header image respoonsive */
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
